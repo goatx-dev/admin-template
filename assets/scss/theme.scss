@@ -1,0 +1,84 @@
+/*
+Template Name: Lurid - Material Design Admin & Dashboard Template
+Author: Myra Studio
+Version: 1.0.0
+File: App Css
+*/
+
+/*
+1. Left sidenav
+2. Header
+3. Footer
+4. Avatar
+5. Helper
+6. Demos
+7. Scrollbar
+8. Sweetalert
+9. Morris
+10. Sparkline-chart
+11. Datatable
+12. Calendar
+13. Maps
+14. Select2
+15. Datepicker
+16. Daterange
+17. Waves 
+18. Auth
+19. Pricing
+*/
+
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+//Core files
+@import "../scss/plugins/bootstrap/functions";
+@import "../scss/plugins/bootstrap/variables";
+@import "variables";
+@import "../scss/plugins/bootstrap/mixins";
+
+// Structure
+/* 1. Left sidenav */
+@import "structure/menu";
+/* 2. Header */
+@import "structure/header";
+/* 3. Footer */
+@import "structure/footer";
+
+// Components
+/* 4. Avatar */
+@import "components/avatar";
+/* 5. Helper */
+@import "components/helper";
+/* 6. Demos */
+@import "components/demos";
+
+// Plugins
+/* 7. Scrollbar */
+@import "plugins/custom-scrollbar";
+/* 8. Sweetalert */
+@import "plugins/sweetalert";
+/* 9. Morris */
+@import "plugins/morris";
+/* 10. Sparkline-chart */
+@import "plugins/sparkline-chart";
+/* 11. Datatable */
+@import "plugins/datatable";
+/* 12. Calendar */
+@import "plugins/calendar";
+/* 13. Maps */
+@import "plugins/maps";
+/* 14. Select2 */
+@import "plugins/select2";
+/* 15. Datepicker */
+@import "plugins/datepicker";
+/* 16. Daterange */
+@import "plugins/daterange";
+/* 17. Waves */
+@import "plugins/waves";
+
+// Pages
+/* 18. Auth*/
+@import "pages/auth";
+/* 19. Pricing */
+@import "pages/pricing";
